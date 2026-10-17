@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              // 1. Profil İkonu
+         
               Icon(
                 Icons.person_outline,
                 size: 60,
@@ -39,14 +39,14 @@ class MyApp extends StatelessWidget {
               ),
               SizedBox(height: 8),
               
-              // 2. Başlık
+         
               Text(
                 "Öğrenci Bilgileri",
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               SizedBox(height: 16),
               
-              // 3. Bilgilerin Arkasındaki Mavi Kutu
+           
               Container(
                 width: 300,
                 padding: EdgeInsets.all(16),
@@ -64,7 +64,7 @@ class MyApp extends StatelessWidget {
               ),
               SizedBox(height: 12),
               
-              // 4. İkonlu Uyarı Yazısı
+           
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -75,7 +75,6 @@ class MyApp extends StatelessWidget {
               ),
               SizedBox(height: 24),
               
-              // 5. Yeşil Devam Et Butonu
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.green,
